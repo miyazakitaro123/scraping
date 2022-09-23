@@ -1,0 +1,51 @@
+1654018994900	geckodriver	INFO	Listening on 127.0.0.1:53342
+1654018997967	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "disable-infobars" "--remote-debugging-port" "53343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lion\\AppData\\Local\\Temp\\rust_mozprofileEabi5Y"
+1654018998750	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lion\\AppData\\Local\\Temp\\rust_mozprofileEabi5Y\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+DevTools listening on ws://localhost:53343/devtools/browser/9300d50f-29d8-4290-96e8-670421638f49
+1654019005748	Marionette	INFO	Listening on port 53388
+Read port: 53388
+1654019006075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654019032209	Marionette	INFO	Stopped listening on port 53388
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Lion\AppData\Local\Temp\rust_mozprofileEabi5Y\protections.sqlite
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1654019053887	geckodriver	INFO	Listening on 127.0.0.1:53496
+1654019056922	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "disable-infobars" "--remote-debugging-port" "53497" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Lion\\AppData\\Local\\Temp\\rust_mozprofileNCKJnF"
+1654019057271	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lion\\AppData\\Local\\Temp\\rust_mozprofileNCKJnF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53497/devtools/browser/53571da6-4c60-4ae6-997e-27f98e7a50b9
+1654019060917	Marionette	INFO	Listening on port 53530
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+Read port: 53530
+1654019061755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+JavaScript warning: https://js.datadome.co/tags.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.geetest.com/static/js/fullpage.9.1.0.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1654019204532	Marionette	INFO	Stopped listening on port 53530
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
